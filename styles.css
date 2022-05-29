@@ -7,14 +7,14 @@ header {
   top: -20px;
   width: 100vw;
   background-color: black;
-  height: 18vh;
   margin: 0px;
   color: #aeaeae;
 }
 
 .login-info {
 padding: 0px 15px;
-margin: 5px;
+margin: 10px;
+font-size: .7em;
 align-self: flex-end;
 }
 
@@ -41,16 +41,17 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 0px 0px;
 }
 
 h1 {
   font-size: 2.5em;
   margin-right: 25px;
+  font-weight: 300;
+  margin-left: 15px;
 }
 
 h2 {
-  padding: 25px;
+  padding: 20px 25px;
 }
 
 .invert {
@@ -58,12 +59,16 @@ h2 {
 }
 
 .share-cards {
-  padding: 20px;
+  display: flex;
+  padding: 0px 20px;
+  flex-wrap: wrap;
 }
 
 .share {
   width: 250px;
-  height: 350px;
+  height: 380px;
+  margin-right: 15px;
+  margin-bottom: 15px;
   background-color: white;
   filter: drop-shadow(0px 0px 3px #aeaeae);
 }
@@ -94,6 +99,7 @@ h2 {
 .user-link {
   margin-left: 15px;
   background-color: #efefef;
+  color: #aeaeae;
   width: 220px;
   overflow-wrap: break-word;
 }
@@ -101,4 +107,18 @@ h2 {
 footer {
   position: absolute;
   bottom: 0px;
+}
+
+h4 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+p {
+  padding-top: 5px;
+  font-size: .9em;
 }
