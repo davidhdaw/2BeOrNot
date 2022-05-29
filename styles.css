@@ -1,4 +1,5 @@
 header {
+  white-space: nowrap;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -8,17 +9,24 @@ header {
   background-color: black;
   height: 18vh;
   margin: 0px;
-  color: #efefef;
+  color: #aeaeae;
 }
+
 .login-info {
 padding: 0px 15px;
 margin: 5px;
 align-self: flex-end;
 }
+
+.blue {
+  color: #44bdfc;
+}
+
 body {
   background-color: #efefef;
   margin: 0px;
   padding-top: 0px;
+  font-family: Roboto;
 }
 
 .logo-spacer {
@@ -26,7 +34,7 @@ body {
 }
 
 .site-logo {
-  margin-right: 50px;
+  margin-right: 25px;
 }
 
 .nav-links {
@@ -36,10 +44,61 @@ body {
   margin: 0px 0px;
 }
 
+h1 {
+  font-size: 2.5em;
+  margin-right: 25px;
+}
+
 h2 {
   padding: 25px;
 }
 
 .invert {
   filter: invert(100%);
+}
+
+.share-cards {
+  padding: 20px;
+}
+
+.share {
+  width: 250px;
+  height: 350px;
+  background-color: white;
+  filter: drop-shadow(0px 0px 3px #aeaeae);
+}
+
+.share :not(:first-child)  {
+  margin: 4px 15px;
+}
+
+.image-card {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  background-image: url(img/cumberbatchHamlet.jpeg);
+  background-size: 300px 200px;
+  background-position: center;
+  color: white;
+  padding-right: 15px;
+}
+
+.share-skull {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.user-link {
+  margin-left: 15px;
+  background-color: #efefef;
+  width: 220px;
+  overflow-wrap: break-word;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
 }
